@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    style
+      include ../static/index.css
+  body
+  nav#navbar 
+    ul
+        div#logo
+          img(src="/static/logo.png", alt="") 
+          | HDA 
+        li
+            a(href="/" ) Home
+        li
+            a(href="/about" ) About
+        li
+            a(href="/services" ) Services
+        li
+            a(href="/contact" ) Contact 
+          
+  section.information 
+    h3  Welcom to the Dance Acedemy
+    p Eat Sleep Dance Repeat
+  section.detail
+    h3 Our Mission  
+    div.card1
+      div.card 
+        h4  More Infomation about Academy
+        div.card-box 
+          div.card-img
+            img(src="/static/1.webp", alt="")
+          div.content
+            p here you can learn   
+      div.card 
+        h4  More Infomation about Academy
+        div.card-box 
+          div.card-img
+            img(src="/static/1.webp", alt="")
+          div.content
+            p here you can learn
+      div.card 
+        h4  More Infomation about Academy
+        div.card-box 
+          div.card-img
+            img(src="/static/1.webp", alt="")
+          div.content
+            p here you can learn
+  section.sponsor 
+    h4 Sponsor
+    img(src="/static/7.png", alt="logo", class = "sponsor1")
+    img(src="/static/8.png", alt="logo", class = "sponsor1")
+    img(src="/static/9.png", alt="logo", class = "sponsor1")
+    img(src="/static/10.png", alt="logo", class = "sponsor1")
+footer.footer
+    p Copyrights Reserved 
+
+    script
+      include ../static/index.js
